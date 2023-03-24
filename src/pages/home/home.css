@@ -1,0 +1,23 @@
+.homeContainer{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.homeTitle{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 25px;
+    margin-bottom: -15px;
+}
+
+.descTitle{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 1px;
+    color: gray;
+}

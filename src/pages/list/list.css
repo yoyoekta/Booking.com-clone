@@ -1,0 +1,88 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.listWrapper{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    gap: 20px;
+}
+
+.listSearch{
+    flex: 1;
+    background-color: #ffb700;
+    padding: 5px 15px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+.listSearch>button{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(19, 19, 249);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.listResult{
+    flex: 3;
+}
+
+.ipfields{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.ipfields>label{
+    font-size: 15px;
+}
+
+.ipfields>input{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.ipfields>span{
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+.ipOptions{
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* .ipfieldsItem:focus{
+    border-color: blue;
+} */
+
+.ipOptionItem{
+    color: #000;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.mail{
+    height: 150px;
+    background-color: #00487a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: serif;
+    padding: 12px;
+}
+
+.mailContainer{
+    width: 100%;
+    max-width: 1100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.save{
+    font-size: 22px;
+    color: whitesmoke;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin-bottom: 2px;
+}
+
+.signup{
+    font-size: 17px;
+    font-weight: 450;
+    color: rgb(183, 181, 181);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+}
+
+.inputContainer{
+    margin: 14px 5px 10px 10px;
+}
+
+.inputContainer>input{
+    padding: 12px;
+    width: 300px;
+    height: 22px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.subscribe{
+    padding: 13px;
+    background-color: #006ce4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 125px;
+    font-family: 'Open Sans';
+}

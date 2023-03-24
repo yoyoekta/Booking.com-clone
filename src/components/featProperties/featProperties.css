@@ -1,0 +1,52 @@
+.fprop{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.fpropItem{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.fpropImg{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.fpropTitle>h1{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.fpropTitle>h2{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: gray;
+    font-weight: normal;
+}
+
+.propPrice{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.WrittenReview{
+    font-size: 12px;
+    padding: 6px;
+}
+
+.ratingbtn{
+    background-color: #003580;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 0;
+    padding: 3px;
+    font-size: 12px;
+}
